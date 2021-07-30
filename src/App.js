@@ -66,13 +66,21 @@ class App extends Component {
             // });
             
          }} placeholder="search monsters"/> */}
+         <div>
          <SearchBox placeholder="search monsters" 
          handleChange={this.handleChange}></SearchBox>
+         </div>
+         
        {/* <SearchBox  onSearchChange={this.onSearchChange} ></SearchBox> */}
        {/* <CardList monsters= {this.state.monsters}>
         
+        
        </CardList> */}
+       <p></p>
+       <div>
        <CardList monsters= {filteredMonsters}> </CardList>
+       </div>
+       
       </div>
       // <div className="App">
       //   { 
